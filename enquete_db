@@ -1,9 +1,6 @@
--- Crie um banco de dados (se ainda não existir)
-
 -- CREATE DATABASE enquete_db;
 
 -- USE enquete_db;
-
  
 
 -- 1. Cria a tabela de votos
@@ -17,7 +14,6 @@ CREATE TABLE tbl_votos (
   total_votos INT DEFAULT 0
 
 );
-
  
 
 -- 2. Insere as opções iniciais da nossa enquete
